@@ -116,4 +116,29 @@ color: black ;
 
 width: 10px;
 height: 0px;
+
+display: flex;
+justify-content: center;
+align-items: center;
 }
+.exercicio7
+{
+    height: 100vh;
+}
+.menu
+{
+display: flex;
+background-color: red;
+height: 50px;
+color: aliceblue;
+font-size: 20px;
+
+justify-content: space-around;
+
+}
+.opcoes
+{
+display: flex;
+
+}
+
