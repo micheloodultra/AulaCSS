@@ -128,10 +128,11 @@ align-items: center;
 .menu
 {
 display: flex;
-background-color: red;
-height: 50px;
+background-color: blueviolet;
+height: 80px;
+
 color: aliceblue;
-font-size: 20px;
+font-size: 25px;
 
 justify-content: space-around;
 
@@ -139,6 +140,20 @@ justify-content: space-around;
 .opcoes
 {
 display: flex;
+ justify-content: space-between;
+}
+
+.opcoes a
+{
+color: aliceblue;
+margin-right: 10px;
+text-decoration: none;
 
 }
 
+.opcoesa:hover
+{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
